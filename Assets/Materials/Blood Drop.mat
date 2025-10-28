@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Blood
+  m_Name: Blood Drop
   m_Shader: {fileID: 4800000, guid: e260cfa7296ee7642b167f1eb5be5023, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -29,15 +29,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 606d1812ee0022c4c83e8c406d7706a8, type: 3}
-        m_Scale: {x: 2.69, y: 1}
+        m_Texture: {fileID: 2800000, guid: 86ce7fb6ba0d36b4c97deaf7d20ed7ad, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
-        m_Texture: {fileID: 2800000, guid: 68f459df1fb1de145a03565eb3fd6979, type: 3}
-        m_Scale: {x: 1.85, y: 1.68}
-        m_Offset: {x: 0.58, y: 0.53}
+        m_Texture: {fileID: 2800000, guid: 86ce7fb6ba0d36b4c97deaf7d20ed7ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 409c0384d06a2b5439bdce3d7a3545a9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 86ce7fb6ba0d36b4c97deaf7d20ed7ad, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
