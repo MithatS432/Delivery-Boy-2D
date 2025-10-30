@@ -1325,7 +1325,7 @@ MonoBehaviour:
   runSound: {fileID: 0}
   pizzaSound: {fileID: 0}
   checkPointSound: {fileID: 0}
-  runEffect: {fileID: 0}
+  runEffect: {fileID: 7116280310039459793, guid: 02acedf1de2885846beffede20440926, type: 3}
   speed: 5
 --- !u!1 &2088266941
 GameObject:
