@@ -1322,9 +1322,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f043718198b57b49a9c3a0957b51249, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSound: {fileID: 0}
-  pizzaSound: {fileID: 0}
-  checkPointSound: {fileID: 0}
+  runSound: {fileID: 8300000, guid: 1985d61661ecc4e49b46a820eba6effd, type: 3}
+  pizzaSound: {fileID: 8300000, guid: 3d1f73177ce3cce4c8c266e6523d3f61, type: 3}
+  checkPointSound: {fileID: 8300000, guid: 7cde687624dae4840afc3ded6a79e030, type: 3}
   runEffect: {fileID: 7116280310039459793, guid: 02acedf1de2885846beffede20440926, type: 3}
   speed: 5
 --- !u!1 &2088266941

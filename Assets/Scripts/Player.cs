@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        
+
     }
 
     void FixedUpdate()
@@ -35,5 +35,16 @@ public class Player : MonoBehaviour
 
         Vector2 moveDir = new Vector2(x, y).normalized;
         rb.linearVelocity = moveDir * speed;
+
+        if (moveDir.magnitude > 0)
+        {
+            GameObject run = Instantiate(
+     runEffect,
+     new Vector3(transform.position.x, transform.position.y - 0.1f, transform.position.z - 0.01f),
+     Quaternion.identity
+ );
+
+            Destroy(run, 1f);
+        }
     }
 }
