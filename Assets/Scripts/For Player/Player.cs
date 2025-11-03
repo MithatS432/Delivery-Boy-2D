@@ -1,4 +1,6 @@
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -21,6 +23,22 @@ public class Player : MonoBehaviour
     [Header("Character Settings")]
     public float speed = 5f;
 
+    [Header("Inventory")]
+    public GameObject inventoryPanel;
+    private bool isInventoryOpen = false;
+    public TMP_Text margheritaText;
+    public TMP_Text pepperoniText;
+    public TMP_Text hawaiianText;
+    public TMP_Text bbqChickenText;
+    public TMP_Text buffaloChickenText;
+    public TMP_Text totalText;
+
+    public int margheritaCount = 29;
+    public int pepperoniCount = 17;
+    public int hawaiianCount = 14;
+    public int bbqChickenCount = 30;
+    public int buffaloChickenCount = 10;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -31,7 +49,41 @@ public class Player : MonoBehaviour
     void Update()
     {
         speed = Input.GetKey(KeyCode.LeftShift) ? 8f : 5f;
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            ToggleInventory();
+        }
     }
+    void ToggleInventory()
+    {
+        isInventoryOpen = !isInventoryOpen;
+        inventoryPanel.SetActive(isInventoryOpen);
+
+        if (isInventoryOpen)
+            rb.linearVelocity = Vector2.zero;
+        if (isInventoryOpen)
+        {
+            rb.linearVelocity = Vector2.zero;
+            UpdateInventoryUI();
+        }
+    }
+    void UpdateInventoryUI()
+    {
+        margheritaText.text = "Margherita  " + margheritaCount.ToString();
+        pepperoniText.text = "Pepperoni " + pepperoniCount.ToString();
+        hawaiianText.text = "Hawaiian " + hawaiianCount.ToString();
+        bbqChickenText.text = "BBQ Chicken " + bbqChickenCount.ToString();
+        buffaloChickenText.text = "Buffalo Chicken " + buffaloChickenCount.ToString();
+        totalText.text = "Total: " + TotalPizzaCount.ToString();
+    }
+    public int TotalPizzaCount
+    {
+        get
+        {
+            return margheritaCount + pepperoniCount + hawaiianCount + bbqChickenCount + buffaloChickenCount;
+        }
+    }
+
 
     void FixedUpdate()
     {
@@ -64,7 +116,5 @@ public class Player : MonoBehaviour
         }
         soundTimer -= Time.fixedDeltaTime;
         effectTimer -= Time.fixedDeltaTime;
-
-
     }
 }
