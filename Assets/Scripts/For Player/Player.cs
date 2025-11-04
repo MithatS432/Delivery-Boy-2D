@@ -10,10 +10,9 @@ public class Player : MonoBehaviour
     private SpriteRenderer sp;
 
     [Header("Audios")]
-    public AudioClip runSound, pizzaSound, checkPointSound;
+    public AudioClip runSound, pizzaSound;
     private float soundCooldown = 0.3f;
     private float soundTimer;
-
 
     [Header("Effects")]
     public GameObject runEffect;
@@ -22,6 +21,8 @@ public class Player : MonoBehaviour
 
     [Header("Character Settings")]
     public float speed = 5f;
+    public float loadSpeed = 20f;
+    public Image pizzaLoader;
 
     [Header("Inventory")]
     public GameObject inventoryPanel;
@@ -39,6 +40,10 @@ public class Player : MonoBehaviour
     public int bbqChickenCount = 30;
     public int buffaloChickenCount = 10;
 
+    private bool isAtHouse = false;
+    private bool isLoading = false;
+    private float loadProgress = 0f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -48,47 +53,49 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        speed = Input.GetKey(KeyCode.LeftShift) ? 8f : 5f;
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
-            ToggleInventory();
-        }
-    }
-    void ToggleInventory()
-    {
-        isInventoryOpen = !isInventoryOpen;
-        inventoryPanel.SetActive(isInventoryOpen);
+        HandleMovement();
+        HandleInventory();
 
-        if (isInventoryOpen)
-            rb.linearVelocity = Vector2.zero;
-        if (isInventoryOpen)
+        if (isAtHouse)
         {
-            rb.linearVelocity = Vector2.zero;
-            UpdateInventoryUI();
+            if (Input.GetKey(KeyCode.Space))
+            {
+                StartLoading();
+            }
+            else
+            {
+                StopLoading();
+            }
         }
-    }
-    void UpdateInventoryUI()
-    {
-        margheritaText.text = "Margherita  " + margheritaCount.ToString();
-        pepperoniText.text = "Pepperoni " + pepperoniCount.ToString();
-        hawaiianText.text = "Hawaiian " + hawaiianCount.ToString();
-        bbqChickenText.text = "BBQ Chicken " + bbqChickenCount.ToString();
-        buffaloChickenText.text = "Buffalo Chicken " + buffaloChickenCount.ToString();
-        totalText.text = "Total: " + TotalPizzaCount.ToString();
-    }
-    public int TotalPizzaCount
-    {
-        get
-        {
-            return margheritaCount + pepperoniCount + hawaiianCount + bbqChickenCount + buffaloChickenCount;
-        }
-    }
 
+        if (isLoading)
+        {
+            loadProgress += loadSpeed * Time.deltaTime;
+            pizzaLoader.fillAmount = loadProgress / 100f;
+
+            if (loadProgress >= 100f)
+            {
+                CompleteLoading();
+            }
+        }
+    }
 
     void FixedUpdate()
     {
+        soundTimer -= Time.fixedDeltaTime;
+        effectTimer -= Time.fixedDeltaTime;
+    }
+
+    private void HandleMovement()
+    {
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
+
+        if (Input.GetKey(KeyCode.LeftShift))
+            speed = 8f;
+        else
+            speed = 5f;
+
         if (x < 0)
             sp.flipX = true;
         else if (x > 0)
@@ -114,7 +121,81 @@ public class Player : MonoBehaviour
                 effectTimer = effectCooldown;
             }
         }
-        soundTimer -= Time.fixedDeltaTime;
-        effectTimer -= Time.fixedDeltaTime;
+    }
+
+    private void HandleInventory()
+    {
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            isInventoryOpen = !isInventoryOpen;
+            inventoryPanel.SetActive(isInventoryOpen);
+            if (isInventoryOpen)
+            {
+                rb.linearVelocity = Vector2.zero;
+                UpdateInventoryUI();
+            }
+        }
+    }
+    private void UpdateInventoryUI()
+    {
+        margheritaText.text = "Margherita  " + margheritaCount.ToString();
+        pepperoniText.text = "Pepperoni " + pepperoniCount.ToString();
+        hawaiianText.text = "Hawaiian " + hawaiianCount.ToString();
+        bbqChickenText.text = "BBQ Chicken " + bbqChickenCount.ToString();
+        buffaloChickenText.text = "Buffalo Chicken " + buffaloChickenCount.ToString();
+        totalText.text = "Total: " + TotalPizzaCount.ToString();
+    }
+
+    public int TotalPizzaCount =>
+        margheritaCount + pepperoniCount + hawaiianCount + bbqChickenCount + buffaloChickenCount;
+
+
+    private void StartLoading()
+    {
+        if (!isLoading)
+        {
+            isLoading = true;
+            loadProgress = 0f;
+            pizzaLoader.fillAmount = 0f;
+            pizzaLoader.gameObject.SetActive(true);
+        }
+    }
+
+    private void StopLoading()
+    {
+        isLoading = false;
+        pizzaLoader.gameObject.SetActive(false);
+    }
+
+    private void CompleteLoading()
+    {
+        isLoading = false;
+        pizzaLoader.gameObject.SetActive(false);
+
+        if (TotalPizzaCount > 0)
+        {
+            margheritaCount = Mathf.Max(0, margheritaCount - 1);
+            UpdateInventoryUI();
+        }
+
+        AudioSource.PlayClipAtPoint(pizzaSound, transform.position, 1f);
+        Debug.Log("🍕 Pizza başarıyla teslim edildi!");
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("House"))
+        {
+            isAtHouse = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("House"))
+        {
+            isAtHouse = false;
+            StopLoading();
+        }
     }
 }
