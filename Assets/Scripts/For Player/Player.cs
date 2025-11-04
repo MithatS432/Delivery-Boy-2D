@@ -44,6 +44,11 @@ public class Player : MonoBehaviour
     private bool isLoading = false;
     private float loadProgress = 0f;
 
+    [Header("Houses")]
+    public GameObject[] houses;
+    public int currentHouseIndex = 0;
+
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -59,13 +64,9 @@ public class Player : MonoBehaviour
         if (isAtHouse)
         {
             if (Input.GetKey(KeyCode.Space))
-            {
                 StartLoading();
-            }
             else
-            {
                 StopLoading();
-            }
         }
 
         if (isLoading)
@@ -74,9 +75,7 @@ public class Player : MonoBehaviour
             pizzaLoader.fillAmount = loadProgress / 100f;
 
             if (loadProgress >= 100f)
-            {
                 CompleteLoading();
-            }
         }
     }
 
@@ -91,10 +90,7 @@ public class Player : MonoBehaviour
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKey(KeyCode.LeftShift))
-            speed = 8f;
-        else
-            speed = 5f;
+        speed = Input.GetKey(KeyCode.LeftShift) ? 8f : 5f;
 
         if (x < 0)
             sp.flipX = true;
@@ -136,6 +132,7 @@ public class Player : MonoBehaviour
             }
         }
     }
+
     private void UpdateInventoryUI()
     {
         margheritaText.text = "Margherita  " + margheritaCount.ToString();
@@ -148,7 +145,6 @@ public class Player : MonoBehaviour
 
     public int TotalPizzaCount =>
         margheritaCount + pepperoniCount + hawaiianCount + bbqChickenCount + buffaloChickenCount;
-
 
     private void StartLoading()
     {
@@ -164,29 +160,41 @@ public class Player : MonoBehaviour
     private void StopLoading()
     {
         isLoading = false;
-        pizzaLoader.gameObject.SetActive(false);
+        if (pizzaLoader != null && pizzaLoader.gameObject != null)
+            pizzaLoader.gameObject.SetActive(false);
     }
 
     private void CompleteLoading()
     {
         isLoading = false;
-        pizzaLoader.gameObject.SetActive(false);
-
-        if (TotalPizzaCount > 0)
-        {
-            margheritaCount = Mathf.Max(0, margheritaCount - 1);
-            UpdateInventoryUI();
-        }
+        if (pizzaLoader != null && pizzaLoader.gameObject != null)
+            pizzaLoader.gameObject.SetActive(false);
 
         AudioSource.PlayClipAtPoint(pizzaSound, transform.position, 1f);
-        Debug.Log("🍕 Pizza başarıyla teslim edildi!");
+
+        if (currentHouseIndex < houses.Length)
+        {
+            houses[currentHouseIndex].SetActive(false);
+            currentHouseIndex++;
+        }
+
+        if (currentHouseIndex >= houses.Length)
+        {
+            Debug.Log("Tüm evler tamamlandı!");
+            currentHouseIndex = houses.Length - 1;
+        }
     }
+
 
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("House"))
         {
-            isAtHouse = true;
+            if (currentHouseIndex < houses.Length &&
+                collision.gameObject == houses[currentHouseIndex])
+            {
+                isAtHouse = true;
+            }
         }
     }
 
