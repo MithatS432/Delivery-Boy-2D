@@ -6,6 +6,7 @@ TagManager:
   tags:
   - House
   - Flag
+  - Bark
   layers:
   - Default
   - TransparentFX

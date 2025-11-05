@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     public AudioClip runSound, pizzaSound;
     private float soundCooldown = 0.3f;
     private float soundTimer;
+    public AudioClip dogBarkSound;
 
     [Header("Effects")]
     public GameObject runEffect;
@@ -204,6 +205,13 @@ public class Player : MonoBehaviour
         {
             isAtHouse = false;
             StopLoading();
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Bark"))
+        {
+            AudioSource.PlayClipAtPoint(dogBarkSound, transform.position, 1f);
         }
     }
 }
