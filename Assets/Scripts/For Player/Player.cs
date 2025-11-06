@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -24,6 +25,12 @@ public class Player : MonoBehaviour
     public float speed = 5f;
     public float loadSpeed = 20f;
     public Image pizzaLoader;
+    public Image[] healthImages;
+    public int health = 2;
+    public GameObject gameOverPanel;
+    public Button restartButton;
+    public Button quitButton;
+    public bool isInMud = false;
 
     [Header("Inventory")]
     public GameObject inventoryPanel;
@@ -91,7 +98,8 @@ public class Player : MonoBehaviour
         float x = Input.GetAxisRaw("Horizontal");
         float y = Input.GetAxisRaw("Vertical");
 
-        speed = Input.GetKey(KeyCode.LeftShift) ? 8f : 5f;
+        float baseSpeed = isInMud ? 2f : 5f;
+        speed = Input.GetKey(KeyCode.LeftShift) ? baseSpeed * 2f : baseSpeed;
 
         if (x < 0)
             sp.flipX = true;
@@ -197,6 +205,29 @@ public class Player : MonoBehaviour
                 isAtHouse = true;
             }
         }
+        if (collision.collider.CompareTag("Enemy"))
+        {
+            health--;
+            if (health >= 0 && health < healthImages.Length)
+            {
+                healthImages[health].enabled = false;
+            }
+            if (health <= 0)
+            {
+                gameOverPanel.SetActive(true);
+                Time.timeScale = 0f;
+                restartButton.onClick.AddListener(() =>
+{
+    Time.timeScale = 1f;
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+});
+
+                quitButton.onClick.AddListener(() =>
+                {
+                    Application.Quit();
+                });
+            }
+        }
     }
 
     void OnCollisionExit2D(Collision2D collision)
@@ -212,6 +243,18 @@ public class Player : MonoBehaviour
         if (other.gameObject.CompareTag("Bark"))
         {
             AudioSource.PlayClipAtPoint(dogBarkSound, transform.position, 1f);
+        }
+        if (other.gameObject.CompareTag("Mud"))
+        {
+            isInMud = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Mud"))
+        {
+            isInMud = false;
         }
     }
 }
