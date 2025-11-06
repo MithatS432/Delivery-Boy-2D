@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
     public GameObject[] images;
+    private bool isPaused = false;
     public void StartGame()
     {
         SceneManager.LoadScene("Town");
@@ -22,5 +23,22 @@ public class UIManager : MonoBehaviour
 #else
         Application.Quit();
 #endif
+    }
+    public void PauseGame()
+    {
+        if (!isPaused)
+        {
+            Time.timeScale = 0f;
+            isPaused = true;
+        }
+    }
+
+    public void ContinueGame()
+    {
+        if (isPaused)
+        {
+            Time.timeScale = 1f;
+            isPaused = false;
+        }
     }
 }
