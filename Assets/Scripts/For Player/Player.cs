@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     public GameObject runEffect;
     private float effectCooldown = 0.1f;
     private float effectTimer;
+    public WinEffect winEffect;
 
     [Header("Character Settings")]
     public float speed = 5f;
@@ -190,9 +191,17 @@ public class Player : MonoBehaviour
         if (currentHouseIndex >= houses.Length)
         {
             Debug.Log("Tüm evler tamamlandı!");
-            currentHouseIndex = houses.Length - 1;
+            winEffect.TriggerWinEffect();
+            Invoke(nameof(RestartGame), 7f);
         }
+
     }
+    void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
 
 
     void OnCollisionEnter2D(Collision2D collision)
