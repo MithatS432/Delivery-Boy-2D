@@ -8,10 +8,14 @@ public class StoryManager : MonoBehaviour
     public string[] sentences;
     public float typingSpeed = 0.05f;
     public GameObject storyPanel;
+    public static bool isStoryActive = false;
 
     void Start()
     {
-        StartCoroutine(PlayStory());
+        if (storyPanel != null)
+        {
+            StartCoroutine(PlayStory());
+        }
     }
 
     IEnumerator TypeSentence(string sentence)
@@ -29,12 +33,12 @@ public class StoryManager : MonoBehaviour
         for (int i = 0; i < sentences.Length; i++)
         {
             yield return StartCoroutine(TypeSentence(sentences[i]));
-
             yield return new WaitForSeconds(3f);
         }
+
         if (storyPanel != null)
-        {
             storyPanel.SetActive(false);
-        }
+
+        isStoryActive = true;
     }
 }

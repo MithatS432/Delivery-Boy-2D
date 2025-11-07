@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     private SpriteRenderer sp;
 
     [Header("Audios")]
-    public AudioClip runSound, pizzaSound;
+    public AudioClip runSound, pizzaSound, mudSound;
     private float soundCooldown = 0.3f;
     private float soundTimer;
     public AudioClip dogBarkSound;
@@ -57,16 +57,36 @@ public class Player : MonoBehaviour
     public GameObject[] houses;
     public int currentHouseIndex = 0;
 
+    [Header("Pizza Delivery System")]
+    public int totalPizzas = 100;
+    public int[] pizzasPerHouse;
+    public float pizzaTimerCount = 600f;
+    public TextMeshProUGUI pizzaTimerText;
+    public Image pizzaTimerImage;
+
+    private float currentTime;
+
+
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sp = GetComponent<SpriteRenderer>();
+
+        pizzasPerHouse = new int[houses.Length];
+        DistributePizzasRandomly();
+        UpdateInventoryUI();
+
+        currentTime = pizzaTimerCount;
+        if (pizzaTimerImage != null)
+            pizzaTimerImage.fillAmount = 1f;
     }
 
     void Update()
     {
+        if (!StoryManager.isStoryActive)
+            return;
         HandleMovement();
         HandleInventory();
 
@@ -85,6 +105,24 @@ public class Player : MonoBehaviour
 
             if (loadProgress >= 100f)
                 CompleteLoading();
+        }
+        if (currentTime > 0f)
+        {
+            currentTime -= Time.deltaTime;
+            float minutes = Mathf.FloorToInt(currentTime / 60);
+            float seconds = Mathf.FloorToInt(currentTime % 60);
+
+            pizzaTimerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+            if (pizzaTimerImage != null)
+                pizzaTimerImage.fillAmount = currentTime / pizzaTimerCount;
+        }
+        else
+        {
+            pizzaTimerText.text = "00:00";
+            if (pizzaTimerImage != null)
+                pizzaTimerImage.fillAmount = 0f;
+            Invoke(nameof(RestartGame), 1f);
         }
     }
 
@@ -155,6 +193,28 @@ public class Player : MonoBehaviour
 
     public int TotalPizzaCount =>
         margheritaCount + pepperoniCount + hawaiianCount + bbqChickenCount + buffaloChickenCount;
+    private void DistributePizzasRandomly()
+    {
+        int remaining = totalPizzas;
+
+        for (int i = 0; i < houses.Length; i++)
+        {
+            pizzasPerHouse[i] = 5;
+            remaining -= 5;
+        }
+
+        while (remaining > 0)
+        {
+            int index = Random.Range(0, houses.Length);
+            pizzasPerHouse[index]++;
+            remaining--;
+        }
+
+        for (int i = 0; i < houses.Length; i++)
+        {
+            Debug.Log($"Ev {i + 1}: {pizzasPerHouse[i]} pizza");
+        }
+    }
 
     private void StartLoading()
     {
@@ -184,6 +244,23 @@ public class Player : MonoBehaviour
 
         if (currentHouseIndex < houses.Length)
         {
+            int delivered = pizzasPerHouse[currentHouseIndex];
+
+            int remaining = Mathf.Max(0, TotalPizzaCount - delivered);
+
+            while (delivered > 0 && TotalPizzaCount > 0)
+            {
+                if (margheritaCount > 0) { margheritaCount--; delivered--; }
+                else if (pepperoniCount > 0) { pepperoniCount--; delivered--; }
+                else if (hawaiianCount > 0) { hawaiianCount--; delivered--; }
+                else if (bbqChickenCount > 0) { bbqChickenCount--; delivered--; }
+                else if (buffaloChickenCount > 0) { buffaloChickenCount--; delivered--; }
+                else break;
+            }
+
+            UpdateInventoryUI();
+            Debug.Log($"Ev {currentHouseIndex + 1} tamamlandı, {pizzasPerHouse[currentHouseIndex]} pizza teslim edildi.");
+
             houses[currentHouseIndex].SetActive(false);
             currentHouseIndex++;
         }
@@ -194,8 +271,8 @@ public class Player : MonoBehaviour
             winEffect.TriggerWinEffect();
             Invoke(nameof(RestartGame), 7f);
         }
-
     }
+
     void RestartGame()
     {
         Time.timeScale = 1f;
@@ -256,6 +333,7 @@ public class Player : MonoBehaviour
         if (other.gameObject.CompareTag("Mud"))
         {
             isInMud = true;
+            AudioSource.PlayClipAtPoint(mudSound, transform.position, 1f);
         }
     }
 
