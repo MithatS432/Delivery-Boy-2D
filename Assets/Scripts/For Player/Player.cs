@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
     public Button restartButton;
     public Button quitButton;
     public bool isInMud = false;
+    public bool isNotInMud => !isInMud;
 
     [Header("Inventory")]
     public GameObject inventoryPanel;
@@ -85,8 +86,8 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if (!StoryManager.isStoryActive)
-            return;
+        //if (!StoryManager.isStoryActive)
+        //return;
         HandleMovement();
         HandleInventory();
 
@@ -153,7 +154,11 @@ public class Player : MonoBehaviour
         {
             if (soundTimer <= 0f)
             {
-                AudioSource.PlayClipAtPoint(runSound, transform.position, 1f);
+                if (isInMud)
+                    AudioSource.PlayClipAtPoint(mudSound, transform.position, 1f);
+                else
+                    AudioSource.PlayClipAtPoint(runSound, transform.position, 1f);
+
                 soundTimer = soundCooldown;
             }
 
@@ -166,6 +171,7 @@ public class Player : MonoBehaviour
             }
         }
     }
+
 
     private void HandleInventory()
     {
@@ -327,9 +333,8 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Bark"))
-        {
             AudioSource.PlayClipAtPoint(dogBarkSound, transform.position, 1f);
-        }
+
         if (other.gameObject.CompareTag("Mud"))
         {
             isInMud = true;
@@ -340,8 +345,7 @@ public class Player : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Mud"))
-        {
             isInMud = false;
-        }
     }
+
 }

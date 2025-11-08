@@ -1,0 +1,1560 @@
+fileFormatVersion: 2
+guid: f8c3283333ecc2f479067b28b015295e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6165518871210187994
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_0
+  - first:
+      213: -8480537852969270200
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_1
+  - first:
+      213: -1332057849289488166
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_2
+  - first:
+      213: -3149190716846226521
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_3
+  - first:
+      213: -4600602166764690472
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_4
+  - first:
+      213: 1082928810072521388
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_5
+  - first:
+      213: 9076495936802555008
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_6
+  - first:
+      213: -5918751341088147422
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_7
+  - first:
+      213: -4756775960491794542
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_8
+  - first:
+      213: 278918297539561958
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_9
+  - first:
+      213: 7940515326609037579
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_10
+  - first:
+      213: -7659223088335173942
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_11
+  - first:
+      213: -6918497056217851038
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_12
+  - first:
+      213: -2667062075782397332
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_13
+  - first:
+      213: 7032532808048829359
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_14
+  - first:
+      213: 3841534343144922657
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_15
+  - first:
+      213: 8042467574727475888
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_16
+  - first:
+      213: -6477016781061665825
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_17
+  - first:
+      213: -1972833145891864445
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_18
+  - first:
+      213: 7273010401302494857
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_19
+  - first:
+      213: 3011470505893978548
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_20
+  - first:
+      213: 8776212285342672173
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_21
+  - first:
+      213: 1770488226730128111
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_22
+  - first:
+      213: 5214703029428578451
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_23
+  - first:
+      213: 160581164716330644
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_24
+  - first:
+      213: -6163920555674727780
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_25
+  - first:
+      213: 4188980836829599987
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_26
+  - first:
+      213: -5467559822942593110
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_27
+  - first:
+      213: 1768379035366322816
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_28
+  - first:
+      213: -7245885318031061156
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_29
+  - first:
+      213: 6417906312429468007
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_30
+  - first:
+      213: 8157851892667314691
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_31
+  - first:
+      213: 4375066847031384754
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_32
+  - first:
+      213: -1176466744001588371
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_33
+  - first:
+      213: -7780681789722169398
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_34
+  - first:
+      213: 1184740726080377236
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_35
+  - first:
+      213: 2925464605564043405
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_36
+  - first:
+      213: 5593284296318732409
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_37
+  - first:
+      213: 6692430246412165299
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_38
+  - first:
+      213: -8668642668192117080
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_39
+  - first:
+      213: -3789021387526777550
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_40
+  - first:
+      213: 7910493041868586310
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_41
+  - first:
+      213: -2741277785636406613
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_42
+  - first:
+      213: 4643088493617838280
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_43
+  - first:
+      213: 7875953673018981065
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_44
+  - first:
+      213: -1461682582443687930
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_45
+  - first:
+      213: 4303670140648729962
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_46
+  - first:
+      213: -2470603624888173386
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_47
+  - first:
+      213: 8591522998248127633
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_48
+  - first:
+      213: -5062725644115207840
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_49
+  - first:
+      213: -2874907193042065090
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_50
+  - first:
+      213: 821340745964784759
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_51
+  - first:
+      213: -2561252379573024512
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_52
+  - first:
+      213: -3224894475299065250
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_53
+  - first:
+      213: -7774354992891251451
+    second: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 646
+        width: 69
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc537e3fb2509550800000000000000
+      internalID: 6165518871210187994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 646
+        width: 69
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844438921c31f4a80800000000000000
+      internalID: -8480537852969270200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 646
+        width: 71
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad844d09174938de0800000000000000
+      internalID: -1332057849289488166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 646
+        width: 72
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a34c686ab3db44d0800000000000000
+      internalID: -3149190716846226521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 607
+        width: 60
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3291154b06720c0800000000000000
+      internalID: -4600602166764690472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 607
+        width: 71
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caab861e306570f00800000000000000
+      internalID: 1082928810072521388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 616
+        width: 65
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084846617f036fd70800000000000000
+      internalID: 9076495936802555008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 624
+        width: 71
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228f290a30f5cdda0800000000000000
+      internalID: -5918751341088147422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 616
+        width: 59
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fd4c667798cfdb0800000000000000
+      internalID: -4756775960491794542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 679
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9c33eb6baeed300800000000000000
+      internalID: 278918297539561958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 607
+        width: 63
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0993107e90623e60800000000000000
+      internalID: 7940515326609037579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 493
+        width: 60
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6cf447e29f4b590800000000000000
+      internalID: -7659223088335173942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 493
+        width: 72
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b9c88459f8cff90800000000000000
+      internalID: -6918497056217851038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 493
+        width: 64
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62031b3c21bcfad0800000000000000
+      internalID: -2667062075782397332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 607
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3e7073453989160800000000000000
+      internalID: 7032532808048829359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 545
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12edd9bb12fdf4530800000000000000
+      internalID: 3841534343144922657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 493
+        width: 93
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b28a3df5a59c9f60800000000000000
+      internalID: 8042467574727475888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 493
+        width: 75
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb4398ed830d16a0800000000000000
+      internalID: -6477016781061665825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 461
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380cff1d4b61f94e0800000000000000
+      internalID: -1972833145891864445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 424
+        width: 58
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e3b590d6ceee460800000000000000
+      internalID: 7273010401302494857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 424
+        width: 67
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1606b3874eac920800000000000000
+      internalID: 3011470505893978548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 424
+        width: 72
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25e44d339e5bc970800000000000000
+      internalID: 8776212285342672173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_22
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 424
+        width: 78
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2b24969a9029810800000000000000
+      internalID: 1770488226730128111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_23
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 424
+        width: 74
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3986e3ec6c85e5840800000000000000
+      internalID: 5214703029428578451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_24
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 375
+        width: 49
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e0980f7bf7a3200800000000000000
+      internalID: 160581164716330644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_25
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 340
+        width: 65
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a874799ea557aa0800000000000000
+      internalID: -6163920555674727780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_26
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 341
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8952e70ef322a30800000000000000
+      internalID: 4188980836829599987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_27
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 341
+        width: 99
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf1f453f435f14b0800000000000000
+      internalID: -5467559822942593110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_28
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 341
+        width: 115
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082f1470d5b8a8810800000000000000
+      internalID: 1768379035366322816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_29
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 342
+        width: 116
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f4a8f81b1717b90800000000000000
+      internalID: -7245885318031061156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_30
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 289
+        width: 94
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7697812a9cbf01950800000000000000
+      internalID: 6417906312429468007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_31
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 286
+        width: 104
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302fea00313863170800000000000000
+      internalID: 8157851892667314691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_32
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 286
+        width: 91
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bad4e50e1c57bc30800000000000000
+      internalID: 4375066847031384754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_33
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 287
+        width: 75
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6399b1cab95cafe0800000000000000
+      internalID: -1176466744001588371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_34
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 289
+        width: 85
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf6245d227750490800000000000000
+      internalID: -7780681789722169398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_35
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 268
+        width: 124
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49195f0d96b017010800000000000000
+      internalID: 1184740726080377236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_36
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 268
+        width: 85
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d808f991f86599820800000000000000
+      internalID: 2925464605564043405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_37
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 269
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97849d9de665f9d40800000000000000
+      internalID: 5593284296318732409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_38
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 268
+        width: 84
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b02a71e9d940ec50800000000000000
+      internalID: 6692430246412165299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_39
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 268
+        width: 50
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae4d95fb6bc2b780800000000000000
+      internalID: -8668642668192117080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_40
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 137
+        width: 54
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235db168f11ba6bc0800000000000000
+      internalID: -3789021387526777550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 95
+        width: 63
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64db6ce8287b7cd60800000000000000
+      internalID: 7910493041868586310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_42
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 94
+        width: 76
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baaf87cb06605f9d0800000000000000
+      internalID: -2741277785636406613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_43
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 95
+        width: 73
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c87bc282609f6040800000000000000
+      internalID: 4643088493617838280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_44
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 95
+        width: 62
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cabab313220d4d60800000000000000
+      internalID: 7875953673018981065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_45
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 95
+        width: 62
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60081138f6f07bbe0800000000000000
+      internalID: -1461682582443687930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_46
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 96
+        width: 63
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6da2dbe035b9bb30800000000000000
+      internalID: 4303670140648729962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_47
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 155
+        width: 92
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc7fbdc717a6bdd0800000000000000
+      internalID: -2470603624888173386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_48
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 107
+        width: 79
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cbd26a5a83b3770800000000000000
+      internalID: 8591522998248127633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_49
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 107
+        width: 79
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0699043a9d59db9b0800000000000000
+      internalID: -5062725644115207840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_50
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 107
+        width: 70
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39238cc3274a18d0800000000000000
+      internalID: -2874907193042065090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_51
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 107
+        width: 74
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c09ca8e0df56b00800000000000000
+      internalID: 821340745964784759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_52
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 107
+        width: 77
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0090d67e78a947cd0800000000000000
+      internalID: -2561252379573024512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_53
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 107
+        width: 63
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52fda99f8fde33d0800000000000000
+      internalID: -3224894475299065250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_54
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 137
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505bee20351fb1490800000000000000
+      internalID: -7774354992891251451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_0: 6165518871210187994
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_1: -8480537852969270200
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_10: 7940515326609037579
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_11: -7659223088335173942
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_12: -6918497056217851038
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_13: -2667062075782397332
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_14: 7032532808048829359
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_15: 3841534343144922657
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_16: 8042467574727475888
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_17: -6477016781061665825
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_18: -1972833145891864445
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_19: 7273010401302494857
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_2: -1332057849289488166
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_20: 3011470505893978548
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_21: 8776212285342672173
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_22: 1770488226730128111
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_23: 5214703029428578451
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_24: 160581164716330644
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_25: -6163920555674727780
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_26: 4188980836829599987
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_27: -5467559822942593110
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_28: 1768379035366322816
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_29: -7245885318031061156
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_3: -3149190716846226521
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_30: 6417906312429468007
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_31: 8157851892667314691
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_32: 4375066847031384754
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_33: -1176466744001588371
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_34: -7780681789722169398
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_35: 1184740726080377236
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_36: 2925464605564043405
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_37: 5593284296318732409
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_38: 6692430246412165299
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_39: -8668642668192117080
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_4: -4600602166764690472
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_40: -3789021387526777550
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_41: 7910493041868586310
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_42: -2741277785636406613
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_43: 4643088493617838280
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_44: 7875953673018981065
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_45: -1461682582443687930
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_46: 4303670140648729962
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_47: -2470603624888173386
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_48: 8591522998248127633
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_49: -5062725644115207840
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_5: 1082928810072521388
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_50: -2874907193042065090
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_51: 821340745964784759
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_52: -2561252379573024512
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_53: -3224894475299065250
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_54: -7774354992891251451
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_6: 9076495936802555008
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_7: -5918751341088147422
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_8: -4756775960491794542
+      2D-Game-Zombie-Character-Premium-Sprite-Pack-2-2-Photoroom_9: 278918297539561958
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1326 @@
+fileFormatVersion: 2
+guid: 52ad8ff42093c4444bfe31e7148dda66
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2470566412707233301
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_0
+  - first:
+      213: 2214022245430994655
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_1
+  - first:
+      213: -4469614386722609447
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_2
+  - first:
+      213: 2698173489351002919
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_3
+  - first:
+      213: -4711819631851314512
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_4
+  - first:
+      213: -8094709487233855942
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_5
+  - first:
+      213: -6104103568701056597
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_6
+  - first:
+      213: 4387506857276193196
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_7
+  - first:
+      213: 4862947981490461212
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_8
+  - first:
+      213: 7622129933452589674
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_9
+  - first:
+      213: 8667554215215032834
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_10
+  - first:
+      213: -6229443629691874547
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_11
+  - first:
+      213: 5010502831191616274
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_12
+  - first:
+      213: -7001329817752691623
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_13
+  - first:
+      213: -6936392300830465073
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_14
+  - first:
+      213: 304078427877915428
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_15
+  - first:
+      213: -8556335715589200458
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_16
+  - first:
+      213: -2984271425617027490
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_17
+  - first:
+      213: 6394413348219183623
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_18
+  - first:
+      213: 8758224488187168446
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_19
+  - first:
+      213: 4741850693502356332
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_20
+  - first:
+      213: -6853877870499675865
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_21
+  - first:
+      213: 4047410646965319801
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_22
+  - first:
+      213: -2466534080891616297
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_23
+  - first:
+      213: 3011680143551722658
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_24
+  - first:
+      213: 4723449237390477848
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_25
+  - first:
+      213: -158335610705380583
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_26
+  - first:
+      213: -1089723122491446876
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_27
+  - first:
+      213: 6561961602725466322
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_28
+  - first:
+      213: -4076038679297641883
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_29
+  - first:
+      213: 1070935766034456688
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_30
+  - first:
+      213: -518854769261416384
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_31
+  - first:
+      213: -4007566252334562708
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_32
+  - first:
+      213: 2956277149264620355
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_33
+  - first:
+      213: 3023744144041499955
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_34
+  - first:
+      213: -2636467550303644913
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_35
+  - first:
+      213: -3017917905470228975
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_36
+  - first:
+      213: 2381327223711148073
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_37
+  - first:
+      213: 80442356546966496
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_38
+  - first:
+      213: 5568633954049203600
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_39
+  - first:
+      213: -2914301249906930126
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_40
+  - first:
+      213: -2055809151511625090
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_41
+  - first:
+      213: 63749147347769887
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_42
+  - first:
+      213: 3118754614836307070
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_43
+  - first:
+      213: -1401285600897129854
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_44
+  - first:
+      213: -3767752872518336429
+    second: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 304
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51efc6f0017394220800000000000000
+      internalID: 2470566412707233301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd62ab77089c9be10800000000000000
+      internalID: 2214022245430994655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 304
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d66c64756db8f1c0800000000000000
+      internalID: -4469614386722609447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 304
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b84273e76d17520800000000000000
+      internalID: 2698173489351002919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 304
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b26ac552014c9eb0800000000000000
+      internalID: -4711819631851314512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 86
+        width: 178
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e0175eb90d9af80800000000000000
+      internalID: -8094709487233855942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 236
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9116b252ed94ba0800000000000000
+      internalID: -6104103568701056597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 236
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9b98d9d3e83ec30800000000000000
+      internalID: 4387506857276193196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 236
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a11f59c69ac7340800000000000000
+      internalID: 4862947981490461212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 236
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a305b6ace37c960800000000000000
+      internalID: 7622129933452589674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 236
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ae455d2a6594870800000000000000
+      internalID: 8667554215215032834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 236
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0355e716029c89a0800000000000000
+      internalID: -6229443629691874547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 236
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21be34737c1e88540800000000000000
+      internalID: 5010502831191616274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 161
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c108910a746de90800000000000000
+      internalID: -7001329817752691623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 161
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3ee36f3fbfcbf90800000000000000
+      internalID: -6936392300830465073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 161
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bb58518bd483400800000000000000
+      internalID: 304078427877915428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 161
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b56155000ac14980800000000000000
+      internalID: -8556335715589200458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_17
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 160
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e9fb223fcb596d0800000000000000
+      internalID: -2984271425617027490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_18
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 161
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702ee97af058db850800000000000000
+      internalID: 6394413348219183623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_19
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 161
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb60689d4c67b8970800000000000000
+      internalID: 8758224488187168446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_20
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 161
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bc52415107ec140800000000000000
+      internalID: 4741850693502356332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_21
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 161
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721c4f2e36222e0a0800000000000000
+      internalID: -6853877870499675865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_22
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 98
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97870801a8a4b2830800000000000000
+      internalID: 4047410646965319801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_23
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 98
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d38f0a525c15cdd0800000000000000
+      internalID: -2466534080891616297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_24
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 98
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a47f7d4223abc920800000000000000
+      internalID: 3011680143551722658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 98
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81acf353e001d8140800000000000000
+      internalID: 4723449237390477848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_26
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 98
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b7c98d99a7dcdf0800000000000000
+      internalID: -158335610705380583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_27
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 98
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a92e5cf79680e0f0800000000000000
+      internalID: -1089723122491446876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_28
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 98
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d054389f45c01b50800000000000000
+      internalID: 6561961602725466322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 98
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56236bdba600f67c0800000000000000
+      internalID: -4076038679297641883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_30
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 98
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070aeb7b76abcde00800000000000000
+      internalID: 1070935766034456688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_31
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 19
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040f72c1658acc8f0800000000000000
+      internalID: -518854769261416384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_32
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 19
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6241cbf9b34268c0800000000000000
+      internalID: -4007566252334562708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_33
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 19
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ba58b776ec60920800000000000000
+      internalID: 2956277149264620355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_34
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 20
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33dd24d474f76f920800000000000000
+      internalID: 3023744144041499955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_35
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 20
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f039e4a4bb2696bd0800000000000000
+      internalID: -2636467550303644913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_36
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 20
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116f72397a33e16d0800000000000000
+      internalID: -3017917905470228975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_37
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 20
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928254f3e7c2c0120800000000000000
+      internalID: 2381327223711148073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_38
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 20
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e390e6a5e9cd1100800000000000000
+      internalID: 80442356546966496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_39
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 20
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d184bc313c74d40800000000000000
+      internalID: 5568633954049203600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_40
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 20
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e02de24725e87d0800000000000000
+      internalID: -2914301249906930126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_41
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 20
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e720726087c4873e0800000000000000
+      internalID: -2055809151511625090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_42
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 20
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ad562038b72e000800000000000000
+      internalID: 63749147347769887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_43
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 20
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74adee5cca084b20800000000000000
+      internalID: 3118754614836307070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_44
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 20
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28228a99b22ad8ce0800000000000000
+      internalID: -1401285600897129854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_45
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 20
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350461099b046bbc0800000000000000
+      internalID: -3767752872518336429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_0: 2470566412707233301
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_1: 2214022245430994655
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_10: 8667554215215032834
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_11: -6229443629691874547
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_12: 5010502831191616274
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_13: -7001329817752691623
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_14: -6936392300830465073
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_15: 304078427877915428
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_16: -8556335715589200458
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_17: -2984271425617027490
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_18: 6394413348219183623
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_19: 8758224488187168446
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_2: -4469614386722609447
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_20: 4741850693502356332
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_21: -6853877870499675865
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_22: 4047410646965319801
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_23: -2466534080891616297
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_24: 3011680143551722658
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_25: 4723449237390477848
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_26: -158335610705380583
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_27: -1089723122491446876
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_28: 6561961602725466322
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_29: -4076038679297641883
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_3: 2698173489351002919
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_30: 1070935766034456688
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_31: -518854769261416384
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_32: -4007566252334562708
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_33: 2956277149264620355
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_34: 3023744144041499955
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_35: -2636467550303644913
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_36: -3017917905470228975
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_37: 2381327223711148073
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_38: 80442356546966496
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_39: 5568633954049203600
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_4: -4711819631851314512
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_40: -2914301249906930126
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_41: -2055809151511625090
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_42: 63749147347769887
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_43: 3118754614836307070
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_44: -1401285600897129854
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_45: -3767752872518336429
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_5: -8094709487233855942
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_6: -6104103568701056597
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_7: 4387506857276193196
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_8: 4862947981490461212
+      animated-zombie-game-character-sprite-creating-halloween-horror-video-games-animated-zombie-game-character-sprite-130719063-Photoroom_9: 7622129933452589674
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
