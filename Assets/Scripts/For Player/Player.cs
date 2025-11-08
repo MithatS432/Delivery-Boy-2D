@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
     public Button quitButton;
     public bool isInMud = false;
     public bool isNotInMud => !isInMud;
+    public bool isPlayerSafe = false;
 
     [Header("Inventory")]
     public GameObject inventoryPanel;
@@ -67,6 +68,11 @@ public class Player : MonoBehaviour
 
     private float currentTime;
 
+    [Header("Enemy Spawn Manager")]
+    public SpawnManager spawnManager;
+    private bool hasSpawned = false;
+
+
 
 
     void Start()
@@ -86,8 +92,8 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        //if (!StoryManager.isStoryActive)
-        //return;
+        if (!StoryManager.isStoryActive)
+            return;
         HandleMovement();
         HandleInventory();
 
@@ -243,7 +249,7 @@ public class Player : MonoBehaviour
     private void CompleteLoading()
     {
         isLoading = false;
-        if (pizzaLoader != null && pizzaLoader.gameObject != null)
+        if (pizzaLoader != null)
             pizzaLoader.gameObject.SetActive(false);
 
         AudioSource.PlayClipAtPoint(pizzaSound, transform.position, 1f);
@@ -251,8 +257,6 @@ public class Player : MonoBehaviour
         if (currentHouseIndex < houses.Length)
         {
             int delivered = pizzasPerHouse[currentHouseIndex];
-
-            int remaining = Mathf.Max(0, TotalPizzaCount - delivered);
 
             while (delivered > 0 && TotalPizzaCount > 0)
             {
@@ -265,7 +269,15 @@ public class Player : MonoBehaviour
             }
 
             UpdateInventoryUI();
-            Debug.Log($"Ev {currentHouseIndex + 1} tamamlandı, {pizzasPerHouse[currentHouseIndex]} pizza teslim edildi.");
+
+            if (currentHouseIndex == 0 && !hasSpawned)
+            {
+                hasSpawned = true;
+                if (spawnManager != null)
+                    spawnManager.StartSpawning();
+                else
+                    Debug.LogWarning("SpawnManager referansı atanmadı!");
+            }
 
             houses[currentHouseIndex].SetActive(false);
             currentHouseIndex++;
@@ -273,11 +285,11 @@ public class Player : MonoBehaviour
 
         if (currentHouseIndex >= houses.Length)
         {
-            Debug.Log("Tüm evler tamamlandı!");
             winEffect.TriggerWinEffect();
             Invoke(nameof(RestartGame), 7f);
         }
     }
+
 
     void RestartGame()
     {
@@ -297,9 +309,11 @@ public class Player : MonoBehaviour
                 isAtHouse = true;
             }
         }
+
         if (collision.collider.CompareTag("Enemy"))
         {
             health--;
+            Destroy(collision.collider.gameObject);
             if (health >= 0 && health < healthImages.Length)
             {
                 healthImages[health].enabled = false;
@@ -308,6 +322,9 @@ public class Player : MonoBehaviour
             {
                 gameOverPanel.SetActive(true);
                 Time.timeScale = 0f;
+                restartButton.onClick.RemoveAllListeners();
+                quitButton.onClick.RemoveAllListeners();
+
                 restartButton.onClick.AddListener(() =>
 {
     Time.timeScale = 1f;
@@ -317,19 +334,47 @@ public class Player : MonoBehaviour
                 quitButton.onClick.AddListener(() =>
                 {
                     Application.Quit();
+#if UNITY_EDITOR
+                    UnityEditor.EditorApplication.isPlaying = false;
+#endif
                 });
             }
         }
     }
-
-    void OnCollisionExit2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D other)
     {
+        if (other.collider.CompareTag("Flag"))
+        {
+            isPlayerSafe = true;
+
+            Enemy[] enemies = Object.FindObjectsByType<Enemy>(FindObjectsSortMode.None);
+            foreach (Enemy e in enemies)
+            {
+                e.canChase = false;
+            }
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Flag"))
+        {
+            isPlayerSafe = false;
+
+            Enemy[] enemies = Object.FindObjectsByType<Enemy>(FindObjectsSortMode.None);
+            foreach (Enemy e in enemies)
+            {
+                e.canChase = true;
+            }
+        }
+
         if (collision.collider.CompareTag("House"))
         {
             isAtHouse = false;
             StopLoading();
         }
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Bark"))
